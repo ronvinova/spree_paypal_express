@@ -13,10 +13,10 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.has_rdoc      = false
 
-  s.add_dependency 'spree_core', '~> 2.1.0.beta'
-  s.add_dependency 'spree_backend', '~> 2.1.0.beta'
-  s.add_dependency 'spree_frontend', '~> 2.1.0.beta'
-
+  s.add_dependency 'spree', '~> 3.2.0'
+  s.add_dependency 'spree_auth_devise', '~> 3.2.0.beta'
+  s.add_dependency 'spree_gateway', '~> 3.2.0.beta'
+  
   s.add_development_dependency 'capybara', '~> 1.1.3'
   s.add_development_dependency 'coffee-rails'
   s.add_development_dependency 'database_cleaner'
